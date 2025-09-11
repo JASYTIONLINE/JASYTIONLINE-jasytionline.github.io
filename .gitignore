@@ -12,8 +12,9 @@ Icon?
 .idea/
 *.code-workspace
 
-# --- Obsidian (local-only KB config) ---
+# --- local only folders - (not to be uploaded to GH) ---
 .obsidian/
+private/
 
 # --- Logs / temp / cache ---
 *.log
@@ -41,6 +42,7 @@ dist/
 build/
 out/
 coverage/
+
 
 # --- Large media (avoid pushing huge binaries) ---
 # If you *need* media on the public site, export web-optimized versions into /assets/img
