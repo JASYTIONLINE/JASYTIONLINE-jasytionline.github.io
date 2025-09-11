@@ -1,0 +1,77 @@
+/* --- My persnonal notes)
+title: "style.css — Week 3 Project 01"
+description: "updated Stylesheet for the personal introduction page using a VSS."
+date: 2025-09-05
+targets:
+  - pageId: wk4a2-style your intro - updated index.html
+    file: index.html
+palette:
+  primary:   "#090909"   # rgb(9, 9, 9)
+  accent1:   "#4F0007"   # rgb(79, 0, 7)
+  accent2:   "#DC7B0B"   # rgb(220, 123, 11)
+  text:      "#3B180E"   # rgb(59, 24, 14)
+  highlight: "#EBBE18"   # rgb(235, 190, 24)
+source:
+  stylesheet: "style.css"
+--- */
+
+/* Week 3 – style.css (5-color palette) */
+body { background-color: rgb(9, 9, 9); } 
+h1  { color: rgb(237, 28, 36); }         /* Heading 1 Color */
+h2  { color: rgb(220, 123, 11); }       /* Heading 2 Color */
+p   { color: rgb(235, 190, 24); }       /* Paragraph color */
+li  { color: rgb(100, 235, 24); }       /* List Color*/
+a   { color: rgb(100, 235, 24); text-decoration: none; }
+
+div {
+  width: 100%;
+  max-width: 1920px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #4F0007;
+  border: 4px solid #EBBE18;
+  padding: 0;  /* padding off so line-height controls vertical space */
+  line-height: 150px;  /* ← matches div height to vertically center one line */
+}
+
+h1 {
+  text-align: center;                         /* centers horizontally */
+  font-weight: normal;                        /* removes default bold from algerian which renders better in normal */
+  font-family: "Algerian", Georgia, serif;   /*Font stack with fallback fonts, based on MDN guidance:
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-family This ensures the browser uses "Algerian" if available,
+otherwise falls back to Georgia or the system serif font.
+*/
+  font-size: 4rem;
+  color: #EBBE18;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  margin: 0;               /* important: no vertical margin so line-height works */
+}
+
+/*
+.subtitle centers the first h2 under the banner.
+This class targets only that one heading using a selector as explained on MDN:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors
+*/
+.subtitle {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #DC7B0B;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+/*
+.content creates a document-style column.
+Width is capped at ~850px to match an 8.5\" page.
+Centered using auto margins. Padding adds breathing room on small screens.
+*/
+.content {
+  width: 100%;
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+/*.content ensures the main body of text and lists are readable.
+Mimics document-style layout for better readability on all devices. */

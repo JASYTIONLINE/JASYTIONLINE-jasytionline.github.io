@@ -1,0 +1,34 @@
+/* --- FRONT MATTER (commented out; for repo only) ---
+title: "style.css — Week 3 Project 01"
+description: "Stylesheet for the personal introduction page using a 5-color Google Arts & Culture palette."
+date: 2025-09-05
+tags: [cmpa3301, wk3, project01, css, stylesheet, palette]
+classification: public
+retention: permanent
+integrityCheck: true
+role: asset-stylesheet
+function: css
+id: style-wk3-p01
+shortcode: style-wk3
+aliases: [wk3-style, personal-intro-style]
+targets:
+  - pageId: wk3-p01-intro
+    file: index.html
+palette:
+  primary:   "#090909"   # rgb(9, 9, 9)
+  accent1:   "#4F0007"   # rgb(79, 0, 7)
+  accent2:   "#DC7B0B"   # rgb(220, 123, 11)
+  text:      "#3B180E"   # rgb(59, 24, 14)
+  highlight: "#EBBE18"   # rgb(235, 190, 24)
+source:
+  stylesheet: "style.css"
+--- */
+
+/* Week 3 – style.css (5-color palette) */
+body { background-color: rgb(9, 9, 9); } 
+h1  { color: rgb(237, 28, 36); }         /* Heading 1 Color */
+h2  { color: rgb(220, 123, 11); }       /* Heading 2 Color */
+p   { color: rgb(235, 190, 24); }       /* Paragraph color */
+li  { color: rgb(100, 235, 24); }       /* List Color*/
+a   { color: rgb(100, 235, 24); text-decoration: none; }
+

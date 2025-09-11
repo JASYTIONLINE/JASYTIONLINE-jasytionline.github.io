@@ -1,0 +1,113 @@
+<!--
+---
+title: Site Structure – Rubric-Safe (v3, Expanded)
+description: Full visual map of the repo with comments, for instructor view.
+date: 2025-09-11
+classification: public
+role: reference
+id: site-structure-v3-expanded
+---
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site Structure – Rubric-Safe (Expanded)</title>
+<link rel="stylesheet" href="../../assets/style.css">
+
+  <style>
+    pre {
+      background: #f4f4f4;
+      padding: 1em;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: monospace;
+      white-space: pre;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Site Structure – Rubric-Safe (Expanded)</h1>
+
+      <p class="subtitle">
+  This is the full planned repository layout, including optional sections (S-35, S-37, S-38, S-39).
+</p>
+
+    <h2>Visual Tree</h2>
+    <p> Only <strong>G-33 Deliverables</strong> 
+      is required and active for Project 02, but the structure leaves room 
+      for expansion without redesign.</p>
+    <pre><code>
+repo-root/                           <-- Site Root (GitHub Pages root)
+├─ README.md                         <-- Project overview + live links
+├─ .gitignore                        <-- Ignore .obsidian/, large files
+├─ LICENSE                           <-- Optional
+├─ SECURITY.md                       <-- Optional
+├─ CONTRIBUTING.md                   <-- Optional
+├─ .github/                          <-- GitHub automation/templates
+│  ├─ ISSUE_TEMPLATE.md
+│  ├─ PULL_REQUEST_TEMPLATE.md
+│  └─ workflows/ci.yml
+├─ assets/                           <-- Shared static assets
+│  ├─ style.css                      <-- Main stylesheet (required)
+│  ├─ img/                           <-- Images (optional, future use)
+│  └─ js/                            <-- Scripts (optional, future use)
+├─ index.html                        <-- PUBLIC HOMEPAGE (root, required)
+└─ content/                          <-- Knowledge Base (optional expansion)
+   ├─ index.md                       <-- Master navigation (all folders published or not -back end)
+   ├─ index.html                     <-- Github Site homepage (front facing)
+   │
+   ├─ 33-deliverables/               <-- S-33 Deliverables (active now)
+   │  ├─ index.html                  <-- Deliverables landing page
+   │  ├─ index.md                    <-- KB index (optional)
+   │  └─ p02/                        <-- Project 02 package
+   │     ├─ cr-wk5p2-your-professional-project-repository.md
+   │     ├─ readme-p02.md
+   │     └─ submission/
+   │        ├─ live-site-url.txt     <-- Link to live site
+   │        └─ repo-url.txt          <-- Link to GitHub repo
+   │
+   ├─ 35-workspace/                  <-- S-35 Workspace (drafts & builds)
+   │  ├─ index.html                  <-- Optional: public landing
+   │  ├─ index.md                    <-- KB index
+   │  ├─ drafts/                     <-- Working drafts
+   │  └─ builds/                     <-- Build artifacts
+   │
+   ├─ 37-knowledge/                  <-- S-37 Knowledge (course references)
+   │  ├─ index.html                  <-- Optional: public landing
+   │  ├─ index.md                    <-- KB index
+   │  ├─ references.md               <-- Approved resource list
+   │  └─ glossary.md                 <-- Optional glossary
+   │
+   ├─ 38-supporting-docs/            <-- S-38 Supporting Docs (audit trail)
+   │  ├─ index.html                  <-- Optional: public landing
+   │  ├─ index.md                    <-- KB index
+   │  ├─ decisions/                  <-- Decision records (ADR style)
+   │  │  └─ ADR-0001-init.md
+   │  └─ evidence/                   <-- Screenshots, logs
+   │
+   └─ 39-mwr/                        <-- S-39 MWR (personal learning)
+      ├─ index.html                  <-- Optional: public landing
+      ├─ index.md                    <-- KB index
+      └─ learning-log.md             <-- Personal learning journal
+
+# Local-only (do NOT commit)
+#   .obsidian/   <-- Private workspace for Obsidian, add to .gitignore
+    </code></pre>
+
+    <h2>Notes</h2>
+    <ul>
+      <li><strong>Rubric minimum:</strong> Root <code>index.html</code>, <code>assets/style.css</code>, <code>33-deliverables</code> with Project 02 files, and <code>README.md</code>.</li>
+      <li>All other sections (35, 37, 38, 39) are optional and can be activated later.</li>
+      <li>This tree shows the professional expansion plan but does not add complexity for grading now.</li>
+    </ul>
+
+    <p><a href="index.html">⟵ Back to Homepage</a></p>
+  </main>
+</body>
+</html>
