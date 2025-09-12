@@ -24,7 +24,8 @@ This project demonstrates fundamentals of version control, structured documentat
 ## 🌐 Quick Links
 - **Website (Live Site):** [https://jasytionline.github.io/](https://jasytionline.github.io/)  
 - **Repository:** [https://github.com/JASYTIONLINE/jasytionline.github.io](https://github.com/JASYTIONLINE/jasytionline.github.io)  
-- **Site Structure Reference:** [Site Structure – Rubric-Safe (Expanded)](content/35-workspace/3301-site-structure.html)  
+- **Site Structure Reference:** [JASYTI's Digital Portal to CMPA 3301
+Site Structure Map](content/35-workspace/3301-site-structure.html)  
 
 ---
 
