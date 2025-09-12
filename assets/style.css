@@ -174,3 +174,26 @@ a:hover {
 .navigation a:hover {
   text-decoration: underline;    /* Underline on hover */
 }
+
+/* =====================================================
+   Repo Tree Styling (site-structure.html)
+   Matches site theme, highlights inline comments in green
+===================================================== */
+pre.repo-tree {
+  background: black;
+  color: yellow;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: monospace;
+  white-space: pre;
+}
+
+pre.repo-tree code {
+  color: yellow;
+}
+
+pre.repo-tree .tree-comment {
+  color: limegreen;    /* inline explanations */
+  font-style: italic;  /* optional: makes them look like comments */
+}

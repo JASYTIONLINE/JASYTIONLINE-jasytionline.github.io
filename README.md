@@ -24,17 +24,16 @@ This project demonstrates fundamentals of version control, structured documentat
 ## 🌐 Quick Links
 - **Website (Live Site):** [https://jasytionline.github.io/](https://jasytionline.github.io/)  
 - **Repository:** [https://github.com/JASYTIONLINE/jasytionline.github.io](https://github.com/JASYTIONLINE/jasytionline.github.io)  
-- **Site Structure Reference:** [JASYTI's Digital Portal to CMPA 3301
-Site Structure Map](content/35-workspace/3301-site-structure.html)  
+- **Site Structure Reference:** [JASYTI's Digital Portal - Site Map](content/35-workspace/3301-site-structure.html)  
 
 ---
 
 ## 📌 Highlights
 - Public repo with `index.html`, `assets/style.css`, and `README.md`.  
+- Will eventually contain all the Knowledge gained suring the class.
 - Published live website using **GitHub Pages**.  
-- ≥3 commits with descriptive messages (requirement exceeded).  
-- Navigation implemented with **G-3 staff mapping** (S-35 active, others scaffolded).  
-- Meets rubric’s **Exemplary success criteria**.  
+- Accountability respected by using profefesional commits with descriptive messages.
+- Navigation implemented with **Site mapping** (S-35 active, others scaffolded).  
 
 ---
 
@@ -49,11 +48,12 @@ This repository follows a simplified **class standard**:
   - `38-supporting-docs/` → Supporting Docs (scaffolded).  
   - `39-mwr/` → MWR (scaffolded).  
 
-For the **full detailed tree**, see the [Site Structure Reference](content/35-workspace/3301-site-structure.html).  
+For the **full detailed tree**, see the [JASYTI's Digital Portal to CMPA 3301 -
+Site Structure Map](content/35-workspace/3301-site-structure.html).  
 
 ---
 
-## 📑 Index Page Content
+## 📑 Index Page Content (Respects SoC and implaments HTML and CSS Styling)
 The homepage (`index.html`) currently includes:  
 - **Banner** → “Jasyti’s Digital Portal to CMPA 3301”  
 - **Subtitle** → Professional Interest: Program/Project Management & AI Integration  
@@ -61,14 +61,5 @@ The homepage (`index.html`) currently includes:
 - **Refrain Line** → “It Begins 🐉 Flight of the DigiPort AI Dragon”  
 - **Navigation Section** → only S-35 active (Site Structure link); others scaffolded  
 - **About Me + Skills Section** → personal introduction and skills list  
-
----
-
-## ✅ Success Criteria (Rubric Alignment)
-- Repository is public and correctly named.  
-- Contains required files (`index.html`, `style.css`, `README.md`).  
-- ≥3 descriptive commits.  
-- Live site functions correctly via GitHub Pages.  
-- Documentation (README + Site Structure Reference) clearly explains purpose and organization.  
 
 ---

@@ -15,82 +15,87 @@ id: site-structure-v3-expanded
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Site Structure – Rubric-Safe (Expanded)</title>
-<link rel="stylesheet" href="../../assets/style.css">
-
+  <link rel="stylesheet" href="../../assets/style.css">
 </head>
 <body>
   <main>
     <h1>JASYTI's Digital Portal to CMPA 3301</h1>
-      <h2 class="subtitle">
-        Site Structure Map </h2>    
-    
+    <h2 class="subtitle">Site Structure Map</h2>    
+
     <h2>Visual Tree</h2>
-  <p>This tree will be the basis for all my future educational repos so I am designing it to be fully expanadable without a major re-write. <br>
-  This is the full planned repository layout, including optional sections (S-35, S-37, S-38, S-39).<br>
-  Only the <strong>S35 Workpsace (Specifically this docuement in s35)</strong>  is actually published at this time.
-   </p>  
-</p>
-    <pre><code>
-repo-root/                           <-- Site Root (GitHub Pages root)</h3>
-├─ README.md                         <-- Project overview + live links
-├─ .gitignore                        <-- Ignore .obsidian/, large files
-├─ LICENSE                           <-- Optional
-├─ SECURITY.md                       <-- Optional
-├─ CONTRIBUTING.md                   <-- Optional
-├─ .github/                          <-- GitHub automation/templates
+    <p>
+      This tree will be the basis for all my future educational repos so I am designing it 
+      to be fully expandable without a major re-write.<br>
+      This is the full planned repository layout, including optional sections 
+      (S-35, S-37, S-38, S-39).<br>
+      Only the <strong>S-35 Workspace (specifically this document in S-35)</strong> 
+      is actually published at this time.
+    </p>  
+
+    <!-- Repo Tree Block -->
+    <pre class="repo-tree"><code>
+repo-root/ <span class="tree-comment">                                      &lt;-- Site Root (GitHub Pages root)</span>
+├─ README.md <span class="tree-comment">                                    &lt;-- Project overview + live links</span>
+├─ .gitignore <span class="tree-comment">                                   &lt;-- Ignore .obsidian/, large files</span>
+├─ LICENSE <span class="tree-comment">                                      &lt;-- Optional</span>
+├─ SECURITY.md <span class="tree-comment">                                  &lt;-- Optional</span>
+├─ CONTRIBUTING.md <span class="tree-comment">                              &lt;-- Optional</span>
+├─ .github/ <span class="tree-comment">                                     &lt;-- GitHub automation/templates</span>
 │  ├─ ISSUE_TEMPLATE.md
 │  ├─ PULL_REQUEST_TEMPLATE.md
 │  └─ workflows/ci.yml
-├─ assets/                           <-- Shared static assets
-│  ├─ style.css                      <-- Main stylesheet (required)
-│  ├─ img/                           <-- Images (optional, future use)
-│  └─ js/                            <-- Scripts (optional, future use)
-├─ index.html                        <-- PUBLIC HOMEPAGE (root, required)
-└─ content/                          <-- Knowledge Base (optional expansion)
-   ├─ index.md                       <-- Master navigation (all folders published or not -back end)
-   ├─ index.html                     <-- Github Site homepage (front facing)
+├─ assets/ <span class="tree-comment">                                      &lt;-- Shared static assets</span>
+│  ├─ style.css <span class="tree-comment">                                 &lt;-- Main stylesheet (required)</span>
+│  ├─ img/ <span class="tree-comment">                                      &lt;-- Images (optional, future use)</span>
+│  └─ js/ <span class="tree-comment">                                       &lt;-- Scripts (optional, future use)</span>
+├─ index.html <span class="tree-comment">                                   &lt;-- PUBLIC HOMEPAGE (root, required)</span>
+└─ content/ <span class="tree-comment">                                     &lt;-- Knowledge Base (optional expansion)</span>
+   ├─ index.md <span class="tree-comment">                                  &lt;-- Master navigation (KB)</span>
+   ├─ index.html <span class="tree-comment">                                &lt;-- Github Site homepage (front facing)</span>
    │
-   ├─ 33-deliverables/               <-- S-33 Deliverables (active now)
-   │  ├─ index.html                  <-- Deliverables landing page
-   │  ├─ index.md                    <-- KB index (optional)
-   │  └─ p02/                        <-- Project 02 package
+   ├─ 33-deliverables/ <span class="tree-comment">                          &lt;-- S-33 Deliverables (active now)</span>
+   │  ├─ index.html
+   │  ├─ index.md
+   │  └─ p02/
    │     ├─ cr-wk5p2-your-professional-project-repository.md
    │     ├─ readme-p02.md
    │     └─ submission/
-   │        ├─ live-site-url.txt     <-- Link to live site
-   │        └─ repo-url.txt          <-- Link to GitHub repo
+   │        ├─ live-site-url.txt <span class="tree-comment">                &lt;-- Link to live site</span>
+   │        └─ repo-url.txt <span class="tree-comment">                     &lt;-- Link to GitHub repo</span>
    │
-   ├─ 35-workspace/                  <-- S-35 Workspace (drafts & builds)
-   │  ├─ index.html                  <-- Optional: public landing
-   │  ├─ index.md                    <-- KB index
-   │  ├─ drafts/                     <-- Working drafts
-   │  └─ builds/                     <-- Build artifacts
+   ├─ 35-workspace/ <span class="tree-comment">                             &lt;-- S-35 Workspace (drafts & builds)</span>
+   │  ├─ index.html
+   │  ├─ index.md
+   │  ├─ drafts/
+   │  └─ builds/
    │
-   ├─ 37-knowledge/                  <-- S-37 Knowledge (course references)
-   │  ├─ index.html                  <-- Optional: public landing
-   │  ├─ index.md                    <-- KB index
-   │  ├─ references.md               <-- Approved resource list
-   │  └─ glossary.md                 <-- Optional glossary
+   ├─ 37-knowledge/ <span class="tree-comment">                             &lt;-- S-37 Knowledge (course references)</span>
+   │  ├─ index.html
+   │  ├─ index.md
+   │  ├─ references.md
+   │  └─ glossary.md
    │
-   ├─ 38-supporting-docs/            <-- S-38 Supporting Docs (audit trail)
-   │  ├─ index.html                  <-- Optional: public landing
-   │  ├─ index.md                    <-- KB index
-   │  ├─ decisions/                  <-- Decision records (ADR style)
+   ├─ 38-supporting-docs/ <span class="tree-comment">                       &lt;-- S-38 Supporting Docs (audit trail)</span>
+   │  ├─ index.html
+   │  ├─ index.md
+   │  ├─ decisions/
    │  │  └─ ADR-0001-init.md
-   │  └─ evidence/                   <-- Screenshots, logs
+   │  └─ evidence/
    │
-   └─ 39-mwr/                        <-- S-39 MWR (personal learning)
-      ├─ index.html                  <-- Optional: public landing
-      ├─ index.md                    <-- KB index
-      └─ learning-log.md             <-- Personal learning journal
+   └─ 39-mwr/ <span class="tree-comment">                                   &lt;-- S-39 MWR (personal learning)</span>
+      ├─ index.html
+      ├─ index.md
+      └─ learning-log.md
 
 # Local-only (do NOT commit)
-#   .obsidian/   <-- Private workspace for Obsidian, add to .gitignore
+#   .obsidian/ <span class="tree-comment">                                  &lt;-- Private workspace for Obsidian, add to .gitignore</span>
     </code></pre>
 
     <h2>Notes</h2>
     <ul>
-      <li><strong>Rubric minimum:</strong> Root <code>index.html</code>, <code>assets/style.css</code>, <code>33-deliverables</code> with Project 02 files, and <code>README.md</code>.</li>
+      <li><strong>Rubric minimum:</strong> Root <code>index.html</code>, 
+        <code>assets/style.css</code>, <code>33-deliverables</code> with Project 02 files, and <code>README.md</code>.
+      </li>
       <li>All other sections (35, 37, 38, 39) are optional and can be activated later.</li>
       <li>This tree shows the professional expansion plan but does not add complexity for grading now.</li>
     </ul>
