@@ -30,9 +30,9 @@ This project demonstrates fundamentals of version control, structured documentat
 
 ## 📌 Highlights
 - Public repo with `index.html`, `assets/style.css`, and `README.md`.  
-- Will eventually contain all the Knowledge gained suring the class.
+- Will eventually contain all the Knowledge gained during the class.
 - Published live website using **GitHub Pages**.  
-- Accountability respected by using profefesional commits with descriptive messages.
+- Accountability respected by using professional commits with descriptive messages.
 - Navigation implemented with **Site mapping** (S-35 active, others scaffolded).  
 
 ---
@@ -53,7 +53,7 @@ Site Structure Map](content/35-workspace/3301-site-structure.html).
 
 ---
 
-## 📑 Index Page Content (Respects SoC and implaments HTML and CSS Styling)
+## 📑 Index Page Content (Respects SoC and implements HTML and CSS Styling)
 The homepage (`index.html`) currently includes:  
 - **Banner** → “Jasyti’s Digital Portal to CMPA 3301”  
 - **Subtitle** → Professional Interest: Program/Project Management & AI Integration  
